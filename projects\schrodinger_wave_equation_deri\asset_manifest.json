@@ -1,0 +1,36 @@
+{
+  "topic": "Schrodinger Wave Equation Derivation",
+  "assets_required": [
+    {
+      "type": "symphony_vertical_video",
+      "count": 2,
+      "aspect": "9:16",
+      "resolution": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "type": "hyperframes_motion_cards",
+      "count": 5,
+      "templates": [
+        "TMPL-01",
+        "TMPL-11",
+        "TMPL-23",
+        "TMPL-24",
+        "TMPL-26",
+        "TMPL-10"
+      ]
+    },
+    {
+      "type": "voiceover_stem",
+      "format": "wav",
+      "lufs": -14.0,
+      "words": 148
+    },
+    {
+      "type": "color_lut",
+      "file": "references/PerplexityDarkSlate.cube"
+    }
+  ]
+}

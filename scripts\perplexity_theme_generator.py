@@ -1,0 +1,115 @@
+#!/usr/bin/env python3
+"""
+Perplexity Theme & Asset Preset Generator
+Generates exportable CSS stylesheets, SVG UI icons/badges, and Hyperframes theme configurations.
+"""
+
+import os
+
+BASE_DIR = r"c:\Users\user\Documents\VIDEO-EDIT-SKILL"
+REFERENCES_DIR = os.path.join(BASE_DIR, "references")
+
+CSS_PRESET = """/* Perplexity Editorial Design System - Video Canvas Tokens (1080x1920) */
+
+:root {
+  /* Canvas Dimensions */
+  --pplx-canvas-width: 1080px;
+  --pplx-canvas-height: 1920px;
+  --pplx-safe-top: 240px;
+  --pplx-safe-bottom: 1450px;
+  --pplx-safe-left: 80px;
+  --pplx-safe-right: 1000px;
+  --pplx-subtitles-baseline: 1540px;
+
+  /* Surfaces & Dark Slate */
+  --pplx-canvas-bg: #111418;
+  --pplx-surface-card: #16191E;
+  --pplx-surface-subtle: #1D222A;
+  --pplx-surface-input: #1B1F26;
+  --pplx-border-subtle: #23272F;
+  --pplx-border-focus: #2F3642;
+
+  /* Typography */
+  --pplx-text-primary: #F3F3EE;
+  --pplx-text-secondary: #9DA3AE;
+  --pplx-text-muted: #646C7A;
+  --pplx-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --pplx-font-serif: 'Iowan Old Style', 'Newsreader', Georgia, serif;
+  --pplx-font-mono: 'JetBrains Mono', 'Berkeley Mono', monospace;
+
+  /* Brand Accents */
+  --pplx-accent-cyan: #20B8CD;
+  --pplx-accent-cyan-glow: rgba(32, 184, 205, 0.22);
+  --pplx-accent-amber: #E5A93C;
+  --pplx-accent-emerald: #10B981;
+  --pplx-accent-crimson: #EF4444;
+
+  /* Motion & Physics */
+  --pplx-ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --pplx-ease-snappy: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --pplx-duration-card-enter: 320ms;
+  --pplx-duration-pill-enter: 220ms;
+}
+
+/* Base Card Styling */
+.pplx-card {
+  background-color: var(--pplx-surface-card);
+  border: 1px solid var(--pplx-border-subtle);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 32px;
+  color: var(--pplx-text-primary);
+  font-family: var(--pplx-font-sans);
+}
+
+/* Citation Pill Badge */
+.pplx-citation-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background-color: var(--pplx-surface-card);
+  border: 1px solid var(--pplx-border-subtle);
+  border-radius: 9999px;
+  font-family: var(--pplx-font-sans);
+  font-size: 20px;
+  color: var(--pplx-text-secondary);
+}
+
+.pplx-citation-pill .number {
+  color: var(--pplx-accent-cyan);
+  font-family: var(--pplx-font-mono);
+  font-weight: 600;
+}
+
+/* Subtitle Safe Zone Layout */
+.pplx-subtitle-container {
+  position: absolute;
+  top: var(--pplx-subtitles-baseline);
+  left: 50%;
+  transform: translateX(-50%);
+  width: 820px;
+  text-align: center;
+  font-family: var(--pplx-font-sans);
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--pplx-text-secondary);
+}
+
+.pplx-subtitle-container .active-word {
+  color: var(--pplx-text-primary);
+  background-color: var(--pplx-accent-cyan-glow);
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+"""
+
+def main():
+    target_css = os.path.join(REFERENCES_DIR, "perplexity-theme.css")
+    with open(target_css, "w", encoding="utf-8") as f:
+        f.write(CSS_PRESET.strip() + "\n")
+    print(f"Exported Perplexity theme CSS preset to: {target_css}")
+
+if __name__ == "__main__":
+    main()

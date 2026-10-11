@@ -1,0 +1,7 @@
+[P] PHOTOGRAPHIC STYLE: 35mm anamorphic cine-lens, ARRI Alexa LF look, 9:16 portrait vertical framing, photochemical grain.
+[I] IMAGERY & SCENE: Hook establishing shot.
+[C] CAMERA & COMPOSITION: Vertical angle, camera low at chest height, subject centered with 25% upper headroom for UI overlay, 35mm prime lens at f/2.8.
+[T] TIMING & LIGHTING: 5400K cold slate with cyan rim light.
+[U] USE OF ATMOSPHERE: Micro-filtered air, subtle optical lens flare.
+[R] RENDER STYLE: Absolute physical material realism, tactile industrial textures, zero 3D CGI gloss.
+[E] EXTRA MOTION: slow push forward over 4 seconds, single camera motion vector.

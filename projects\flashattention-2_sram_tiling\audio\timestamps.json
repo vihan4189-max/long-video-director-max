@@ -1,0 +1,320 @@
+{
+  "total_duration_seconds": 33.93,
+  "words": [
+    {
+      "word": "Most",
+      "start": 0.0,
+      "end": 0.324
+    },
+    {
+      "word": "engineers",
+      "start": 0.324,
+      "end": 0.973
+    },
+    {
+      "word": "think",
+      "start": 0.973,
+      "end": 1.378
+    },
+    {
+      "word": "FlashAttention-2",
+      "start": 1.378,
+      "end": 2.027
+    },
+    {
+      "word": "S-RAM",
+      "start": 2.027,
+      "end": 2.351
+    },
+    {
+      "word": "Tiling",
+      "start": 2.351,
+      "end": 2.837
+    },
+    {
+      "word": "works",
+      "start": 2.837,
+      "end": 3.242
+    },
+    {
+      "word": "the",
+      "start": 3.242,
+      "end": 3.506
+    },
+    {
+      "word": "way",
+      "start": 3.506,
+      "end": 3.77
+    },
+    {
+      "word": "tutorials",
+      "start": 3.77,
+      "end": 4.419
+    },
+    {
+      "word": "explain",
+      "start": 4.419,
+      "end": 4.987
+    },
+    {
+      "word": "it.",
+      "start": 4.987,
+      "end": 5.251
+    },
+    {
+      "word": "It",
+      "start": 5.651,
+      "end": 5.915
+    },
+    {
+      "word": "does",
+      "start": 5.915,
+      "end": 6.239
+    },
+    {
+      "word": "not...",
+      "start": 6.239,
+      "end": 6.503
+    },
+    {
+      "word": "the",
+      "start": 7.273,
+      "end": 7.537
+    },
+    {
+      "word": "real",
+      "start": 7.537,
+      "end": 7.861
+    },
+    {
+      "word": "bottleneck",
+      "start": 7.861,
+      "end": 8.51
+    },
+    {
+      "word": "is",
+      "start": 8.51,
+      "end": 8.774
+    },
+    {
+      "word": "completely",
+      "start": 8.774,
+      "end": 9.423
+    },
+    {
+      "word": "different.",
+      "start": 9.423,
+      "end": 10.072
+    },
+    {
+      "word": "Under",
+      "start": 10.472,
+      "end": 10.877
+    },
+    {
+      "word": "standard",
+      "start": 10.877,
+      "end": 11.526
+    },
+    {
+      "word": "execution",
+      "start": 11.526,
+      "end": 12.175
+    },
+    {
+      "word": "performance",
+      "start": 12.395,
+      "end": 13.044
+    },
+    {
+      "word": "collapses",
+      "start": 13.044,
+      "end": 13.693
+    },
+    {
+      "word": "due",
+      "start": 13.693,
+      "end": 13.957
+    },
+    {
+      "word": "to",
+      "start": 13.957,
+      "end": 14.221
+    },
+    {
+      "word": "memory",
+      "start": 14.221,
+      "end": 14.707
+    },
+    {
+      "word": "bandwidth",
+      "start": 14.707,
+      "end": 15.356
+    },
+    {
+      "word": "limitations.",
+      "start": 15.356,
+      "end": 16.005
+    },
+    {
+      "word": "Here",
+      "start": 16.405,
+      "end": 16.729
+    },
+    {
+      "word": "is",
+      "start": 16.729,
+      "end": 16.993
+    },
+    {
+      "word": "the",
+      "start": 16.993,
+      "end": 17.257
+    },
+    {
+      "word": "exact",
+      "start": 17.257,
+      "end": 17.662
+    },
+    {
+      "word": "mathematical",
+      "start": 17.662,
+      "end": 18.311
+    },
+    {
+      "word": "derivation",
+      "start": 18.311,
+      "end": 18.96
+    },
+    {
+      "word": "that",
+      "start": 18.96,
+      "end": 19.284
+    },
+    {
+      "word": "changes",
+      "start": 19.284,
+      "end": 19.852
+    },
+    {
+      "word": "everything.",
+      "start": 19.852,
+      "end": 20.501
+    },
+    {
+      "word": "The",
+      "start": 22.501,
+      "end": 22.765
+    },
+    {
+      "word": "result",
+      "start": 22.765,
+      "end": 23.251
+    },
+    {
+      "word": "A",
+      "start": 23.651,
+      "end": 23.915
+    },
+    {
+      "word": "five-x",
+      "start": 23.915,
+      "end": 24.32
+    },
+    {
+      "word": "throughput",
+      "start": 24.32,
+      "end": 24.969
+    },
+    {
+      "word": "gain",
+      "start": 24.969,
+      "end": 25.293
+    },
+    {
+      "word": "with",
+      "start": 25.293,
+      "end": 25.617
+    },
+    {
+      "word": "zero",
+      "start": 25.617,
+      "end": 25.941
+    },
+    {
+      "word": "accuracy",
+      "start": 25.941,
+      "end": 26.59
+    },
+    {
+      "word": "loss.",
+      "start": 26.59,
+      "end": 26.914
+    },
+    {
+      "word": "This",
+      "start": 27.314,
+      "end": 27.638
+    },
+    {
+      "word": "is",
+      "start": 27.638,
+      "end": 27.902
+    },
+    {
+      "word": "why",
+      "start": 27.902,
+      "end": 28.166
+    },
+    {
+      "word": "FlashAttention-2",
+      "start": 28.166,
+      "end": 28.815
+    },
+    {
+      "word": "S-RAM",
+      "start": 28.815,
+      "end": 29.139
+    },
+    {
+      "word": "Tiling",
+      "start": 29.139,
+      "end": 29.625
+    },
+    {
+      "word": "powers",
+      "start": 29.625,
+      "end": 30.111
+    },
+    {
+      "word": "modern",
+      "start": 30.111,
+      "end": 30.597
+    },
+    {
+      "word": "computing.",
+      "start": 30.597,
+      "end": 31.246
+    },
+    {
+      "word": "Follow",
+      "start": 31.646,
+      "end": 32.132
+    },
+    {
+      "word": "for",
+      "start": 32.132,
+      "end": 32.396
+    },
+    {
+      "word": "deeper",
+      "start": 32.396,
+      "end": 32.882
+    },
+    {
+      "word": "breakdowns.",
+      "start": 32.882,
+      "end": 33.531
+    }
+  ]
+}

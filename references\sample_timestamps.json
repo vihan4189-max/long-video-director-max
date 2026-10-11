@@ -1,0 +1,87 @@
+{
+  "total_duration_seconds": 10.81,
+  "word_count": 16,
+  "target_wpm": 148,
+  "words": [
+    {
+      "word": "Most",
+      "start": 0.0,
+      "end": 0.324
+    },
+    {
+      "word": "engineers",
+      "start": 0.324,
+      "end": 0.973
+    },
+    {
+      "word": "think",
+      "start": 0.973,
+      "end": 1.378
+    },
+    {
+      "word": "attention",
+      "start": 1.378,
+      "end": 2.027
+    },
+    {
+      "word": "is",
+      "start": 2.027,
+      "end": 2.291
+    },
+    {
+      "word": "compute-bound.",
+      "start": 2.291,
+      "end": 2.94
+    },
+    {
+      "word": "It's",
+      "start": 3.34,
+      "end": 3.604
+    },
+    {
+      "word": "not...",
+      "start": 3.604,
+      "end": 3.868
+    },
+    {
+      "word": "it's",
+      "start": 4.638,
+      "end": 4.902
+    },
+    {
+      "word": "memory-bandwidth",
+      "start": 4.902,
+      "end": 5.551
+    },
+    {
+      "word": "bound.",
+      "start": 5.551,
+      "end": 5.956
+    },
+    {
+      "word": "FlashAttention",
+      "start": 7.956,
+      "end": 8.605
+    },
+    {
+      "word": "changes",
+      "start": 8.605,
+      "end": 9.173
+    },
+    {
+      "word": "the",
+      "start": 9.173,
+      "end": 9.437
+    },
+    {
+      "word": "math",
+      "start": 9.437,
+      "end": 9.761
+    },
+    {
+      "word": "entirely.",
+      "start": 9.761,
+      "end": 10.41
+    }
+  ]
+}

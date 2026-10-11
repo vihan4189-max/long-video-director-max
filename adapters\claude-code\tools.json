@@ -1,0 +1,75 @@
+[
+  {
+    "name": "video_director_interrogate",
+    "description": "Analyzes a STEM topic/script and returns the Rule of Three Clarifications before creating assets.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "topic": {
+          "type": "string",
+          "description": "Scientific or technical topic (e.g. FlashAttention-2, Bayes Theorem)"
+        },
+        "script_draft": {
+          "type": "string",
+          "description": "Optional raw draft script or paper abstract"
+        }
+      },
+      "required": ["topic"]
+    }
+  },
+  {
+    "name": "video_director_plan",
+    "description": "Runs the dual-pass self-refining director plan loop and outputs a master production timeline.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "topic": {"type": "string"},
+        "domain": {
+          "type": "string",
+          "enum": ["ai-machine-learning", "mathematics-probability", "physics-quantum", "computer-science-systems"]
+        },
+        "duration_seconds": {"type": "number", "default": 58}
+      },
+      "required": ["topic", "domain"]
+    }
+  },
+  {
+    "name": "symphony_generate_shot",
+    "description": "Validates and generates a Symphony strictly vertical (9:16) AI B-roll prompt using PICTURE-916.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "scene_description": {"type": "string"},
+        "focal_length": {"type": "string", "default": "35mm"},
+        "camera_movement": {"type": "string", "default": "slow push forward"}
+      },
+      "required": ["scene_description"]
+    }
+  },
+  {
+    "name": "hyperframes_render_card",
+    "description": "Renders a Perplexity motion graphic card (LaTeX, code diff, UI query) using spring physics.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "template_id": {"type": "string"},
+        "title": {"type": "string"},
+        "content": {"type": "string"}
+      },
+      "required": ["template_id", "content"]
+    }
+  },
+  {
+    "name": "clipchat_assemble_timeline",
+    "description": "Compiles multi-track video timeline, J-cuts, audio ducking, and LUT grade into an FFmpeg script and EDL.",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "project_title": {"type": "string"},
+        "voiceover_file": {"type": "string"},
+        "apply_lut": {"type": "boolean", "default": true}
+      },
+      "required": ["project_title", "voiceover_file"]
+    }
+  }
+]

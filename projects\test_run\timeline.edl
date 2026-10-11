@@ -1,0 +1,8 @@
+TITLE: Test Run_Master
+FCM: NON-DROP FRAME
+
+001  AX       V     C        00:00:00:30 00:00:04:30 00:00:00:00 00:00:04:00
+* FROM CLIP NAME: assets/symphony_shots/shot_1.mp4
+
+002  AX       V     C        00:00:00:30 00:00:04:00 00:00:04:00 00:00:07:30
+* FROM CLIP NAME: assets/symphony_shots/shot_2.mp4

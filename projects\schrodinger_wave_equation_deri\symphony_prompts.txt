@@ -1,0 +1,20 @@
+# Symphony Vertical (9:16) Prompts for 'Schrodinger Wave Equation Derivation'
+CAUTION: Strictly 9:16 vertical composition. Trim first 0.5s and last 0.5s in Clipchat.
+
+## Shot 1 (Timecode 0:00 - 0:05)
+[P] PHOTOGRAPHIC STYLE: 35mm anamorphic cine-lens, ARRI Alexa LF look, 9:16 portrait orientation.
+[I] IMAGERY & SCENE: Extreme macro of high-performance silicon microarchitecture operating in cleanroom.
+[C] CAMERA & COMPOSITION: Vertical portrait, camera low at chest height, subject centered, f/2.8 aperture.
+[T] TIMING & LIGHTING: Cold 5400K lab lighting with sharp electric cyan rim light from upper right.
+[U] USE OF ATMOSPHERE: Micro-filtered air, subtle optical lens flare.
+[R] RENDER STYLE: Absolute physical material realism, brushed metal, copper heatpipes.
+[E] EXTRA MOTION: Slow steady camera push forward over 4 seconds, single motion vector.
+
+## Shot 2 (Timecode 0:42 - 0:48)
+[P] PHOTOGRAPHIC STYLE: 65mm macro prime lens, 9:16 vertical composition.
+[I] IMAGERY & SCENE: Hardware server rack with pulsing fiber-optic network activity.
+[C] CAMERA & COMPOSITION: Low-angle vertical looking up along server face.
+[T] TIMING & LIGHTING: Deep dark slate data hall with pulsing LED indicators.
+[U] USE OF ATMOSPHERE: Cold containment airflow.
+[R] RENDER STYLE: Industrial hardware realism.
+[E] EXTRA MOTION: Micro-rack focus from foreground cables to background server board over 3.5 seconds.

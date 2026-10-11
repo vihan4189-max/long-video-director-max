@@ -1,0 +1,11 @@
+{
+  "mcp_servers": {
+    "video_director": {
+      "command": "python",
+      "args": ["c:/Users/user/Documents/VIDEO-EDIT-SKILL/tools/mcp_server.py"],
+      "env": {
+        "PYTHONPATH": "c:/Users/user/Documents/VIDEO-EDIT-SKILL"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "topic": "Test Run",
+  "duration": 58,
+  "beats": [
+    {
+      "timecode": "0:00-0:05",
+      "beat": "Hook",
+      "tool": "Symphony+Hyperframes",
+      "template": "TMPL-01"
+    },
+    {
+      "timecode": "0:05-0:18",
+      "beat": "Bottleneck",
+      "tool": "Hyperframes",
+      "template": "TMPL-24"
+    },
+    {
+      "timecode": "0:18-0:32",
+      "beat": "Math Mechanism",
+      "tool": "Hyperframes",
+      "template": "TMPL-11"
+    },
+    {
+      "timecode": "0:32-0:42",
+      "beat": "Code Reality",
+      "tool": "Hyperframes",
+      "template": "TMPL-23"
+    },
+    {
+      "timecode": "0:42-0:50",
+      "beat": "Revelation",
+      "tool": "Symphony+Hyperframes",
+      "template": "TMPL-26"
+    },
+    {
+      "timecode": "0:50-0:58",
+      "beat": "Outro",
+      "tool": "Hyperframes",
+      "template": "TMPL-10"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "project": "FlashAttention-2 SRAM Tiling_Master",
+  "resolution": {
+    "width": 1080,
+    "height": 1920
+  },
+  "fps": 60,
+  "color_grade_lut": "references/PerplexityDarkSlate.cube",
+  "tracks": {
+    "v3_subtitles": {
+      "baseline_y": 1540,
+      "font": "Inter Bold",
+      "active_color": "#20B8CD"
+    },
+    "v2_hyperframes": [
+      {
+        "template": "TMPL-01",
+        "in": 0.0,
+        "duration": 5.0
+      },
+      {
+        "template": "TMPL-24",
+        "in": 5.0,
+        "duration": 13.0
+      },
+      {
+        "template": "TMPL-11",
+        "in": 18.0,
+        "duration": 14.0
+      },
+      {
+        "template": "TMPL-23",
+        "in": 32.0,
+        "duration": 10.0
+      },
+      {
+        "template": "TMPL-26",
+        "in": 42.0,
+        "duration": 8.0
+      },
+      {
+        "template": "TMPL-10",
+        "in": 50.0,
+        "duration": 8.0
+      }
+    ],
+    "v1_symphony": [
+      {
+        "shot": "assets/symphony_shots/shot_1.mp4",
+        "in": 0.5,
+        "out": 4.5,
+        "timeline_start": 0.0
+      },
+      {
+        "shot": "assets/symphony_shots/shot_2.mp4",
+        "in": 0.5,
+        "out": 4.0,
+        "timeline_start": 42.0
+      }
+    ],
+    "a1_voiceover": {
+      "file": "audio/voiceover_master.wav",
+      "gain_db": 0.0,
+      "needle_drop_at": 38.0
+    },
+    "a3_music": {
+      "file": "audio/ambient_score.wav",
+      "gain_db": -24.0,
+      "ducking_reduction_db": 10.0
+    }
+  }
+}

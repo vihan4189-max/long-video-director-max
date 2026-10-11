@@ -1,0 +1,310 @@
+{
+  "total_duration_seconds": 32.19,
+  "words": [
+    {
+      "word": "Most",
+      "start": 0.0,
+      "end": 0.324
+    },
+    {
+      "word": "engineers",
+      "start": 0.324,
+      "end": 0.973
+    },
+    {
+      "word": "think",
+      "start": 0.973,
+      "end": 1.378
+    },
+    {
+      "word": "Test",
+      "start": 1.378,
+      "end": 1.702
+    },
+    {
+      "word": "Run",
+      "start": 1.702,
+      "end": 1.966
+    },
+    {
+      "word": "works",
+      "start": 1.966,
+      "end": 2.371
+    },
+    {
+      "word": "the",
+      "start": 2.371,
+      "end": 2.635
+    },
+    {
+      "word": "way",
+      "start": 2.635,
+      "end": 2.899
+    },
+    {
+      "word": "tutorials",
+      "start": 2.899,
+      "end": 3.548
+    },
+    {
+      "word": "explain",
+      "start": 3.548,
+      "end": 4.116
+    },
+    {
+      "word": "it.",
+      "start": 4.116,
+      "end": 4.38
+    },
+    {
+      "word": "It",
+      "start": 4.78,
+      "end": 5.044
+    },
+    {
+      "word": "does",
+      "start": 5.044,
+      "end": 5.368
+    },
+    {
+      "word": "not...",
+      "start": 5.368,
+      "end": 5.632
+    },
+    {
+      "word": "the",
+      "start": 6.402,
+      "end": 6.666
+    },
+    {
+      "word": "real",
+      "start": 6.666,
+      "end": 6.99
+    },
+    {
+      "word": "bottleneck",
+      "start": 6.99,
+      "end": 7.639
+    },
+    {
+      "word": "is",
+      "start": 7.639,
+      "end": 7.903
+    },
+    {
+      "word": "completely",
+      "start": 7.903,
+      "end": 8.552
+    },
+    {
+      "word": "different.",
+      "start": 8.552,
+      "end": 9.201
+    },
+    {
+      "word": "Under",
+      "start": 9.601,
+      "end": 10.006
+    },
+    {
+      "word": "standard",
+      "start": 10.006,
+      "end": 10.655
+    },
+    {
+      "word": "execution",
+      "start": 10.655,
+      "end": 11.304
+    },
+    {
+      "word": "performance",
+      "start": 11.524,
+      "end": 12.173
+    },
+    {
+      "word": "collapses",
+      "start": 12.173,
+      "end": 12.822
+    },
+    {
+      "word": "due",
+      "start": 12.822,
+      "end": 13.086
+    },
+    {
+      "word": "to",
+      "start": 13.086,
+      "end": 13.35
+    },
+    {
+      "word": "memory",
+      "start": 13.35,
+      "end": 13.836
+    },
+    {
+      "word": "bandwidth",
+      "start": 13.836,
+      "end": 14.485
+    },
+    {
+      "word": "limitations.",
+      "start": 14.485,
+      "end": 15.134
+    },
+    {
+      "word": "Here",
+      "start": 15.534,
+      "end": 15.858
+    },
+    {
+      "word": "is",
+      "start": 15.858,
+      "end": 16.122
+    },
+    {
+      "word": "the",
+      "start": 16.122,
+      "end": 16.386
+    },
+    {
+      "word": "exact",
+      "start": 16.386,
+      "end": 16.791
+    },
+    {
+      "word": "mathematical",
+      "start": 16.791,
+      "end": 17.44
+    },
+    {
+      "word": "derivation",
+      "start": 17.44,
+      "end": 18.089
+    },
+    {
+      "word": "that",
+      "start": 18.089,
+      "end": 18.413
+    },
+    {
+      "word": "changes",
+      "start": 18.413,
+      "end": 18.981
+    },
+    {
+      "word": "everything.",
+      "start": 18.981,
+      "end": 19.63
+    },
+    {
+      "word": "The",
+      "start": 21.63,
+      "end": 21.894
+    },
+    {
+      "word": "result",
+      "start": 21.894,
+      "end": 22.38
+    },
+    {
+      "word": "A",
+      "start": 22.78,
+      "end": 23.044
+    },
+    {
+      "word": "five-x",
+      "start": 23.044,
+      "end": 23.449
+    },
+    {
+      "word": "throughput",
+      "start": 23.449,
+      "end": 24.098
+    },
+    {
+      "word": "gain",
+      "start": 24.098,
+      "end": 24.422
+    },
+    {
+      "word": "with",
+      "start": 24.422,
+      "end": 24.746
+    },
+    {
+      "word": "zero",
+      "start": 24.746,
+      "end": 25.07
+    },
+    {
+      "word": "accuracy",
+      "start": 25.07,
+      "end": 25.719
+    },
+    {
+      "word": "loss.",
+      "start": 25.719,
+      "end": 26.043
+    },
+    {
+      "word": "This",
+      "start": 26.443,
+      "end": 26.767
+    },
+    {
+      "word": "is",
+      "start": 26.767,
+      "end": 27.031
+    },
+    {
+      "word": "why",
+      "start": 27.031,
+      "end": 27.295
+    },
+    {
+      "word": "Test",
+      "start": 27.295,
+      "end": 27.619
+    },
+    {
+      "word": "Run",
+      "start": 27.619,
+      "end": 27.883
+    },
+    {
+      "word": "powers",
+      "start": 27.883,
+      "end": 28.369
+    },
+    {
+      "word": "modern",
+      "start": 28.369,
+      "end": 28.855
+    },
+    {
+      "word": "computing.",
+      "start": 28.855,
+      "end": 29.504
+    },
+    {
+      "word": "Follow",
+      "start": 29.904,
+      "end": 30.39
+    },
+    {
+      "word": "for",
+      "start": 30.39,
+      "end": 30.654
+    },
+    {
+      "word": "deeper",
+      "start": 30.654,
+      "end": 31.14
+    },
+    {
+      "word": "breakdowns.",
+      "start": 31.14,
+      "end": 31.789
+    }
+  ]
+}

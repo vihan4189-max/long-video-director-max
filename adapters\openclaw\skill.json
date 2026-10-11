@@ -1,0 +1,40 @@
+{
+  "name": "video-director",
+  "version": "2.0.0",
+  "description": "Production-grade vertical (9:16) STEM video production engine for OpenClaw using Symphony, Hyperframes, and Clipchat under Perplexity aesthetics.",
+  "author": "Antigravity Video Engineering",
+  "entrypoint": "actions.py",
+  "actions": [
+    {
+      "name": "interrogate",
+      "description": "Analyze topic and return the Rule of Three Questions",
+      "parameters": {
+        "topic": {"type": "string", "required": true},
+        "script": {"type": "string", "required": false}
+      }
+    },
+    {
+      "name": "generate_symphony_shot",
+      "description": "Generate strictly vertical 9:16 B-roll prompt using PICTURE-916 formula",
+      "parameters": {
+        "scene": {"type": "string", "required": true},
+        "focal": {"type": "string", "default": "35mm"}
+      }
+    },
+    {
+      "name": "render_motion_card",
+      "description": "Render Perplexity motion card HTML/SVG via Hyperframes",
+      "parameters": {
+        "template_id": {"type": "string", "required": true},
+        "content": {"type": "string", "required": true}
+      }
+    },
+    {
+      "name": "compile_timeline",
+      "description": "Compile Clipchat timeline into FFmpeg EDL and executable script",
+      "parameters": {
+        "timeline_json": {"type": "string", "required": true}
+      }
+    }
+  ]
+}
